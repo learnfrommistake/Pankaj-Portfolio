@@ -76,6 +76,22 @@ nav a:hover {
   border: 1px;
   border-radius: 4px 4px;
 }
+.simple-footer {
+  text-align: center;
+  padding: 15px 10px;
+  background: #020617;
+  color: #cbd5f5;
+  font-size: 0.9rem;
+  border-top: 1px solid #1e293b;
+}
+
+.simple-footer p {
+  margin: 0;
+}
+.simple-footer p:hover {
+  color: #22c55e;
+  transition: 0.3s;
+}
 
 /* +++++++++++++++++++++++++++++++++++++responsive design+++++++++++++++++++++++++++++ */
 @media (max-width: 768px) {
