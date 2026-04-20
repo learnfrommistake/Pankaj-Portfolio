@@ -309,6 +309,51 @@ nav a:hover {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   border-bottom: 4px solid #007bff;
 }
+
+.education-section {
+  margin-top: 2rem;
+}
+
+.education-section h3 {
+  font-size: 1.5rem;
+  color: #22c55e;
+  margin-bottom: 1rem;
+}
+
+/* Card */
+.edu-card {
+  background: #0f172a;
+  padding: 15px 20px;
+  border-left: 3px solid #22c55e;
+  border-radius: 6px;
+}
+
+/* Degree */
+.edu-card h4 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+/* College */
+.college {
+  color: #38bdf8;
+  font-size: 0.95rem;
+}
+
+/* Year */
+.year {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin-bottom: 8px;
+}
+
+/* Description */
+.desc {
+  font-size: 0.95rem;
+  color: #cbd5f5;
+  line-height: 1.5;
+}
 /* ++++++++++++++media query for about section+++++++++++++++++++++++ */
 @media (max-width: 992px) {
   .main-class-one {
