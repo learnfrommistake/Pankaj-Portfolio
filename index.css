@@ -311,45 +311,58 @@ nav a:hover {
 }
 
 .education-section {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
-.education-section h3 {
-  font-size: 1.5rem;
-  color: #22c55e;
-  margin-bottom: 1rem;
+/* Heading */
+.edu-heading {
+  font-size: 1.8rem;
+  color: #38bdf8;
+  margin-bottom: 1.5rem;
 }
 
-/* Card */
-.edu-card {
+/* Box */
+.edu-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
   background: #0f172a;
-  padding: 15px 20px;
-  border-left: 3px solid #22c55e;
-  border-radius: 6px;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #22c55e;
+  transition: 0.3s;
 }
 
-/* Degree */
-.edu-card h4 {
-  font-size: 1.2rem;
+/* Hover */
+.edu-box:hover {
+  transform: translateY(-5px);
+  background: #1e293b;
+}
+
+/* Icon */
+.edu-icon {
+  font-size: 2rem;
+}
+
+/* Content */
+.edu-content h3 {
   color: #ffffff;
+  font-size: 1.2rem;
   margin-bottom: 5px;
 }
 
-/* College */
-.college {
-  color: #38bdf8;
+.edu-college {
+  color: #22c55e;
   font-size: 0.95rem;
 }
 
-/* Year */
-.year {
-  font-size: 0.9rem;
+.edu-year {
+  font-size: 0.85rem;
   color: #94a3b8;
   margin-bottom: 8px;
 }
 
-/* Description */
-.desc {
+.edu-desc {
   font-size: 0.95rem;
   color: #cbd5f5;
   line-height: 1.5;
