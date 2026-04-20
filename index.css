@@ -324,7 +324,7 @@ nav a:hover {
 /* Box */
 .edu-box {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 15px;
   background: #0f172a;
   padding: 20px;
