@@ -87,6 +87,7 @@ nav a:hover {
 
 .simple-footer p {
   margin: 0;
+  text-align:center;
 }
 .simple-footer p:hover {
   color: #22c55e;
