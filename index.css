@@ -312,7 +312,7 @@ nav a:hover {
 
 .education-section {
   /* margin-top: 3rem; */
-  background-color:linear-gradient(135deg, #0f172a, #020617);
+  background-color:#0f172a;
   
 }
 
@@ -320,13 +320,14 @@ nav a:hover {
 .edu-heading {
   font-size: 1.8rem;
   color: #38bdf8;
+  text-align:center;
+  Color:black;
   /* margin-bottom: 1.5rem; */
 }
 
 /* Box */
 .edu-box {
   display: flex;
-  
   justify-content:center;
   gap: 15px;
   background: #0f172a;
