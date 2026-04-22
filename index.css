@@ -140,14 +140,6 @@ body {
   color: #38bdf8;
 }
 @media (max-width: 992px) {
-  .hero img {
-    width: 12rem;
-    height: 12rem;
-    object-fit: fill;
-  }
-  .hero h1 {
-    font-size: 32px;
-  }
 }
 
 /* SECTION */
@@ -179,7 +171,15 @@ body {
     font-size: 0.5rem;
   }
   .nav-first a {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+  }
+  .hero img {
+    width: 11rem;
+    height: 11rem;
+    object-fit: fill;
+  }
+  .hero h1 {
+    font-size: 32px;
   }
 }
 
